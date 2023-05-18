@@ -23,7 +23,7 @@ sources:
     - '.git'
     
 # Specify the languages you would like to Scan. Default is all Detected
-#languages: 'JAVA,CPP'
+languages: 'TYPESCRIPT'
 
 
 # Define modules one would like to run or disable. This is enough for Basic Users
@@ -36,4 +36,4 @@ modules:
  - name: eslint
    config:
      - name: use_config_from_source
-       value: .eslintrc.json
+       value: .eslintrc.js
